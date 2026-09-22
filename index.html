@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Akito Station is a macOS game library frontend built around a clean, unified experience for user-provided games and runtimes." />
+  <title>Akito Station — Your library, one station.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav shell">
+    <a class="brand" href="#top" aria-label="Akito Station home">
+      <img src="assets/akito-logo.jpg" alt="Akito Station logo" />
+      <span>Akito Station</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a><a href="#pro">PRO</a><a href="#faq">FAQ</a><a href="#support">Support</a>
+    </nav>
+    <a class="button ghost" href="#download">Download</a>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow">MACOS • LIBRARY FRONTEND</div>
+        <h1>Your games.<br><span>One station.</span></h1>
+        <p>Akito Station brings your user-provided game library into one polished macOS experience with unified browsing, organization, customization and launch workflows.</p>
+        <div class="actions"><a class="button primary" href="#download">Get Akito Station</a><a class="button secondary" href="#pro">Explore PRO</a></div>
+        <p class="micro">Akito Station does not include games, ROMs, BIOS/firmware, encryption keys, console software, PKG files, or third-party emulator binaries.</p>
+      </div>
+      <div class="mark-wrap"><img class="mark" src="assets/akito-logo.jpg" alt="Akito Station A logo" /></div>
+    </section>
+
+    <section class="showcase shell">
+      <div class="window-bar"><span></span><span></span><span></span><b>Akito Station</b></div>
+      <img src="assets/library.jpg" alt="Akito Station game library interface" />
+    </section>
+
+    <section id="features" class="section shell">
+      <div class="section-heading"><div class="eyebrow">BUILT FOR YOUR LIBRARY</div><h2>A focused home for your collection.</h2></div>
+      <div class="cards">
+        <article><div class="icon">◫</div><h3>Unified Library</h3><p>Browse supported systems and organize your collection from a single native interface.</p></article>
+        <article><div class="icon">⌘</div><h3>Made for macOS</h3><p>A desktop-first experience designed to feel at home on modern Apple Silicon Macs.</p></article>
+        <article><div class="icon">✦</div><h3>Personalized</h3><p>Customize the experience while keeping your games and user-supplied components under your control.</p></article>
+      </div>
+    </section>
+
+    <section id="pro" class="section shell pro-grid">
+      <div>
+        <div class="eyebrow gold">AKITO STATION PRO</div>
+        <h2>Support development.<br>Get early access.</h2>
+        <p>PRO is a supporter membership for people who want to help fund continued Akito Station development. PRO members receive early access to upcoming Akito Station builds and updates before their general public release.</p>
+        <ul class="ticks"><li>Support ongoing Akito Station development</li><li>Early access to upcoming Akito Station builds</li><li>PRO membership status inside the app</li><li>Future supporter benefits announced by Akito Station</li></ul>
+        <p class="micro">PRO applies to Akito Station itself. It does not provide third-party games, firmware, keys, console software, or emulator binaries.</p>
+      </div>
+      <aside class="pro-card">
+        <div class="pill">PRO SUPPORTER</div><h3>Become a PRO Member</h3><p>Choose a supported payment method. Stripe checkout can be enabled after your account is configured.</p>
+        <button class="button primary full" disabled>Stripe — Coming Soon</button>
+        <a class="button paypal full" href="#support">Support with PayPal</a>
+        <div class="secure">Secure checkout • No payment secrets stored in the app</div>
+      </aside>
+    </section>
+
+    <section id="download" class="section shell download">
+      <div><div class="eyebrow">PUBLIC RELEASE</div><h2>Download Akito Station.</h2><p>Public releases are distributed separately from PRO early-access builds. Add your official GitHub release URL here before publishing.</p></div>
+      <a class="button primary disabled-link" href="#" aria-disabled="true">GitHub Release — Add URL</a>
+    </section>
+
+    <section id="support" class="section shell support-grid">
+      <div><div class="eyebrow">SUPPORT DEVELOPMENT</div><h2>Help build what comes next.</h2><p>If you'd like to support Akito Station development through PayPal, use the QR code shown here. Before launch, replace or supplement this with your official clickable PayPal support link.</p></div>
+      <div class="qr-card"><img src="assets/paypal-qr.jpg" alt="PayPal QR code for Akito Station support" /></div>
+    </section>
+
+    <section id="faq" class="section shell faq">
+      <div class="section-heading"><div class="eyebrow">FAQ</div><h2>Good to know.</h2></div>
+      <details open><summary>Does Akito Station include games or ROMs?</summary><p>No. Users are responsible for providing and using their own content in accordance with applicable licenses and law.</p></details>
+      <details><summary>Does Akito Station provide BIOS, firmware, keys, PKGs or emulator binaries?</summary><p>No. The public distribution does not provide those materials. Where third-party components are required, users must obtain and use them independently and lawfully.</p></details>
+      <details><summary>What is Akito Station PRO?</summary><p>PRO is a supporter membership that helps fund development and provides early access to upcoming Akito Station builds and updates before general public release.</p></details>
+      <details><summary>Is PRO required to use Akito Station?</summary><p>No. Akito Station has a public release separate from the optional PRO supporter membership.</p></details>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <div><strong>Akito Station</strong><p>Independent software project. Not affiliated with Apple, Nintendo, Sony, Microsoft, or other platform holders.</p></div>
+    <div class="footer-links"><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="refunds.html">Refunds</a><a href="contact.html">Contact</a></div>
+    <p class="copyright">© <span id="year"></span> Akito Station. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
